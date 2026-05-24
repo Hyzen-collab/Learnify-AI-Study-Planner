@@ -445,17 +445,11 @@ All AI endpoints are protected by JWT middleware — only authenticated users ca
 
 ## 👨‍💻 Author
 
-**Piumal Gayashan**
+**Idusha Piumika**
 BSc (Hons) Software Engineering — Year 3
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
+- GitHub: @Hyzen-collab(https://github.com/Hyzen-collab)
 - Email: piumalmyself@gmail.com
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
