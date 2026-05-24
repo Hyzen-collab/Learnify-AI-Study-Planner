@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #F5F0E8;
+    color: #0D0D0D;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Syne', sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-sage text-white font-display font-semibold px-6 py-3 rounded-xl 
+           hover:bg-sage-dark transition-all duration-200 
+           shadow-md hover:shadow-lg hover:-translate-y-0.5
+           disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none;
+  }
+
+  .btn-secondary {
+    @apply bg-paper border-2 border-ink text-ink font-display font-semibold px-6 py-3 rounded-xl
+           hover:bg-ink hover:text-paper transition-all duration-200;
+  }
+
+  .btn-ghost {
+    @apply text-slate hover:text-ink hover:bg-black/5 px-4 py-2 rounded-lg transition-all;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-sm border border-black/5 p-6;
+  }
+
+  .input {
+    @apply w-full px-4 py-3 rounded-xl border-2 border-black/10 bg-white
+           font-body text-ink placeholder:text-slate/50
+           focus:outline-none focus:border-sage transition-colors duration-200;
+  }
+
+  .label {
+    @apply block text-sm font-display font-semibold text-slate mb-1.5;
+  }
+
+  .badge-high {
+    @apply bg-red-100 text-red-700 text-xs font-mono font-medium px-2.5 py-1 rounded-full;
+  }
+
+  .badge-medium {
+    @apply bg-amber-100 text-amber-700 text-xs font-mono font-medium px-2.5 py-1 rounded-full;
+  }
+
+  .badge-low {
+    @apply bg-green-100 text-green-700 text-xs font-mono font-medium px-2.5 py-1 rounded-full;
+  }
+
+  .page-title {
+    @apply text-3xl font-display font-bold text-ink;
+  }
+
+  .section-title {
+    @apply text-xl font-display font-semibold text-ink;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #4A7C5940; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #4A7C5980; }
+
+/* Loading dots animation */
+.loading-dots span {
+  animation: blink 1.4s infinite;
+  animation-fill-mode: both;
+}
+.loading-dots span:nth-child(2) { animation-delay: 0.2s; }
+.loading-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes blink {
+  0%, 80%, 100% { opacity: 0; }
+  40% { opacity: 1; }
+}
