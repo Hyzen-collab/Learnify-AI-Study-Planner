@@ -33,7 +33,7 @@ export default function LoginPage() {
           <div className="w-10 h-10 bg-sage rounded-xl flex items-center justify-center">
             <GraduationCap size={22} className="text-white" />
           </div>
-          <span className="font-display font-bold text-white text-xl">StudyAI</span>
+          <span className="font-display font-bold text-xl">Learnify</span>
         </div>
         <div>
           <p className="text-5xl font-display font-bold text-white leading-tight mb-4">

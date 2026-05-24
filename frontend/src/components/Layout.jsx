@@ -34,7 +34,7 @@ export default function Layout() {
           <div className="w-9 h-9 bg-sage rounded-xl flex items-center justify-center">
             <GraduationCap size={20} className="text-white" />
           </div>
-          <span className="font-display font-bold text-white text-lg">StudyAI</span>
+          <span className="font-display font-bold text-white text-lg">Learnify</span>
         </div>
 
         {/* Nav Links */}
