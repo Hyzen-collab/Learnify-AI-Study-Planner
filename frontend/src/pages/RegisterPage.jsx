@@ -37,7 +37,7 @@ export default function RegisterPage() {
       <div className="w-full max-w-md animate-fade-up">
         <div className="flex items-center gap-2 mb-10">
           <GraduationCap size={24} className="text-sage" />
-          <span className="font-display font-bold text-xl">StudyAI</span>
+          <span className="font-display font-bold text-xl">Learnify</span>
         </div>
 
         <h1 className="page-title mb-2">Create your account</h1>
