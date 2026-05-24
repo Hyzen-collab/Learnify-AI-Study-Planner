@@ -1,4 +1,4 @@
-# 🎓 StudyAI — AI-Powered Study Planner
+# 🎓 Learnyfy — AI-Powered Study Planner
 
 <div align="center">
 
